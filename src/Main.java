@@ -1,14 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        boolean isAct = false;
+        boolean isAct = true;
+        int b = 1;
 
         while(isAct) {
-            System.out.println("무한루프");
-        }
+            System.out.println(b);
+            b++;
 
-        do {
-            System.out.println("무한루프");
-        } while (isAct);
+            if(b>10000) {
+                isAct = false;
+            }
+        }
 
     }
 }
