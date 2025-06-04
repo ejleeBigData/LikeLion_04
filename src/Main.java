@@ -1,13 +1,18 @@
 public class Main {
     public static void main(String[] args) {
+        int i = 0;
 
-        for (int i = 1; i <= 9 ; i++) {
-            System.out.println(i + " 단 ");
-            for (int j = 1; j<=9; j++) {
-                System.out.println(i + " * "+ j + " = " + (i*j));
-            }
-            System.out.println("-----");
+        while(i<5) {
+            System.out.println(i);
+            i++;
         }
 
+        System.out.println("----");
+
+        i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        } while(i<5);
     }
 }
