@@ -1,16 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        boolean isAct = true;
-        int b = 1;
+       int number = 9 ;
 
-        while(isAct) {
-            System.out.println(b);
-            b++;
+       String binaryString =  Integer.toBinaryString(number);
 
-            if(b>10000) {
-                isAct = false;
-            }
-        }
+       System.out.println("결과 : "+ binaryString);
 
     }
 }
